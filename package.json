@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon carl2.js",
     "prod": "pm2 start carl2.js --node-args='--harmony'",
-    "prepare": "node setup.js"
+    "prepare": "node setup.js",
+    "restart": "pm2 restart all"
   },
   "repository": {
     "type": "git",
